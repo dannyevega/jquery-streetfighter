@@ -18,6 +18,7 @@ body {
   height: 494px;	
 }
 
+.ryu-cool,
 .ryu-still,
 .ryu-ready,
 .ryu-throwing {
@@ -25,6 +26,7 @@ body {
   height: 494px;
 }
 
+.ryu-cool,
 .ryu-ready,
 .ryu-throwing {
 	display: none;
@@ -42,6 +44,10 @@ body {
 	background-image: url('../images/ryu-throwing-hadouken.png');
 }
 
+.ryu-cool {
+	background-image: url('../images/ryu-cool.gif');
+}
+
 .hadouken {
 	background-image: url('../images/hadouken.gif');
 	display: none;
@@ -54,9 +60,59 @@ body {
 	z-index: 10;
 }
 
+.street-fighter .logo {
+	display: none;
+	width: 512px;
+	height: 320px;
+	float: right;
+	position: absolute;
+	top: 100px;
+	left: 700px;
+}
+
+.intro h1 {
+	display: none;
+	font-size: 4em;
+	font-family: 'Special Elite', cursive;
+	color: red;
+	float: right;
+	position: absolute;
+	top: 180px;
+	left: 700px;	
+}
+
+.jquery .logo {
+	display: none;
+	width: 500px;
+	height: 300px;
+	float: right;
+	position: absolute;
+	top: 100px;
+	left: 700px;	
+}
+
+.directions {
+	display: none;
+	position: absolute;
+	float: right;
+	font-family: 'Special Elite', cursive;
+	color: red;	
+	top: 110px;
+	left: 720px;		
+}
+
+.directions h1 {
+	font-size: 3.5em;
+}
+
+.directions p {
+	font-size: 1.5em;
+}
+
 .hadouken,
 .ryu-still,
 .ryu-ready,
-.ryu-throwing {
+.ryu-throwing,
+.ryu-cool {
   background-repeat: no-repeat;
 }
